@@ -1,0 +1,169 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.fundo  {
+  width: 100%; 
+  height: 400px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  padding: 10px;
+}
+
+
+button {
+background-color: #ddd;
+border: none;
+color: black;
+text-align: center;
+font-size: 16px;
+margin: 5px 10px;
+padding: 10px; 
+transition: 0.3s;
+}
+
+button:hover {
+background-color: #0a0a23;
+color: white;
+}
+
+
+header button {
+  width: 100px;
+  height: 50px;
+  position: relative;
+  bottom: 40px;
+  text-align: center;
+}
+header a {
+color: white;
+}
+nav {
+  background-color: #E6E6FA;
+  margin: 0;
+  padding: 70px;
+  text-align: center;
+}
+nav button {
+  width: 120px;
+  height: 90px;
+}
+nav a {
+color: #E6E6FA;
+}
+
+
+.volta, .exame button, .fec, .btn, .cta, .adr {
+background-color: #ddd;
+border: none;
+color: black;
+padding: 5px 10px;
+text-align: center;
+font-size: 16px;
+margin: 15px 20px;
+transition: 0.3s;
+}
+
+.volta:hover, .exame:hover, .fec:hover, .btn:hover, .cta:hover, .adr:hover {
+background-color: #0a0a23;
+color: white;
+}
+
+.exame:hover {
+background-color: #e9617c;
+}
+
+.fec:hover {
+background-color: #e9617c;
+}
+
+.adr:hover {
+background-color: #C0C0C0;
+color: black;
+}
+
+.ts {
+background-color: #E6E6FA;
+margin: 0;
+padding: 70px;
+text-align: center;
+}
+
+
+.cadastrar{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 15px 10px;
+  transition: 0.3s;
+  }
+  .cadastrar:hover{
+  background-color: #DC143C;
+  color: white;
+}
+
+.login{
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  margin: 15px 10px;
+  transition: 0.3s;
+  }
+  .login:hover{
+  background-color: #7FFF00;
+  color: white;
+}
+
+h3 {
+  font-size: 15px;       
+  color: #000000;      
+  font-family: Arial, sans-serif;  
+  font-weight: bold;   
+  text-align: center;   
+  position: relative; 
+  padding: 05px;
+  border-radius: 15px;
+  display: inline-block;
+}   
+
+
+
+h1 {
+  font-size: 20px;       
+  color: #000000;      
+  margin-bottom: 5px; 
+  font-family: Arial, sans-serif;  
+  font-weight: bold;   
+  text-align: center;      
+}
+table {
+  width: 50%;
+  margin: auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px #000000;
+}
+
+td {
+  padding: 12px;
+  border: 1px solid #000000;
+  background-color: #E0FFFF;
+}
+
+th{
+  background-color: #F0F8FF;
+}
